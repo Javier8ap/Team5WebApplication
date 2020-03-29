@@ -1,11 +1,88 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(images/background.JPEG) no-repeat center center fixed;
+    background-size: cover;
+}
 
+.main-section {
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
 
+.modal-content {
+    background-color: #57364a;
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 15px #20141b;
+}
 
+.user-img {
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+.user-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #20141b;
+}
 
+.form-group{
+    margin-bottom: 30px;
+}
 
+.form-group input{
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 55px;
+}
 
+.form-group::before {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f007";
+    position: absolute;
+    font-size: 22px;
+    color: #57364a;
+    left: 28px;
+    padding-top: 4px;
+
+}
+
+.form-group:last-of-type::before {
+    content: "\f023";
+}
+
+button{
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    background-color: #cc4d4d;
+    color: #ffff;
+    font-size: 19px;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #a03b3b;
+}
+
+.forgot {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.forgot a {
+    color: #fff;
+}
 
 
 
