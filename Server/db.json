@@ -1,0 +1,14 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "Email": "admin@iteso",
+        "Password": "admin"
+      },
+      {
+        "id": 2,
+        "Email": "javier8a@gmail.com",
+        "Password": "ponme6"
+      }
+    ]
+}
