@@ -15,7 +15,7 @@ function logIn(){
             console.log("Entra2")
             let user = JSON.parse(xhr.response);
             if (user[0].Password == userPassword.value) {
-                alert('It Works!')
+                window.location.href="dashboard.html";
             }else{
                 alert("Invalid Password");
             }
